@@ -1,0 +1,47 @@
+$(document).ready(function() {
+    $(".row1-hover").mouseenter(function(){
+        $(".row1-hover").animate({ opacity:1}, 400, function(){
+            $(".row1-hover").finish();
+        });
+    });
+
+$(".row1-hover").mouseleave(function(){
+        $(".row1-hover").animate({opacity:0}, 400, function(){
+            $(".row1-hover").finish();
+        });
+    });
+	
+	 $(".row2-hover").mouseenter(function(){
+        $(".row2-hover").animate({ opacity:1}, 400, function(){
+            $(".row2-hover").finish();
+        });
+    });
+
+$(".row2-hover").mouseleave(function(){
+        $(".row2-hover").animate({opacity:0}, 400, function(){
+            $(".row2-hover").finish();
+        });
+    });
+	 $(".row3-hover").mouseenter(function(){
+        $(".row3-hover").animate({ opacity:1}, 400, function(){
+            $(".row3-hover").finish();
+        });
+    });
+
+$(".row3-hover").mouseleave(function(){
+        $(".row3-hover").animate({opacity:0}, 400, function(){
+            $(".row3-hover").finish();
+        });
+    });
+	 $(".row4-hover").mouseenter(function(){
+        $(".row4-hover").animate({ opacity:1}, 400, function(){
+            $(".row4-hover").finish();
+        });
+    });
+
+$(".row4-hover").mouseleave(function(){
+        $(".row4-hover").animate({opacity:0}, 400, function(){
+            $(".row4-hover").finish();
+        });
+    });
+});
